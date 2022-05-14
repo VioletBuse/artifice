@@ -1,0 +1,9 @@
+name="artifice-api"
+main="dist/index.js"
+
+compatibility_date = "2022-02-03"
+
+routes = ["artificeapi.julianbuse.com/*"]
+
+[build]
+command = "npm run build"

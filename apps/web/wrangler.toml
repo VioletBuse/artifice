@@ -1,0 +1,11 @@
+name = "artifice-web"
+main = "src/index.ts"
+compatibility_date = "2022-05-14"
+
+routes = ["artifice.julianbuse.com/*"]
+
+[site]
+bucket = "./dist"
+
+[build]
+command = "npm run build"
